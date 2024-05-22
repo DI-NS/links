@@ -1,6 +1,45 @@
 body {background-color: gray;}
+
 .card {
     
+    display: flex;
+    top: 174px;
+    /* left: 528px; */
+    padding: 20% 25% 0px 25%;
+    /* gap: 24px; */
+    align-items: center;
+    border-radius: 12px 0px 0px 0px;
+    justify-content: center;
+    opacity: 0px;
+    flex-direction: column;
 
 
+}
+.card img {
+    height: 10%;
+    width: 20%;
+    border-radius: 100%;
+   }
+
+.card h1 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+   }
+
+.card p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+   }
+
+.card a {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+   }
+
+.colunas-link {
+
+    background-color: #1F1F1F;
 }
